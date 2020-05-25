@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav-button-container a{
+    margin: auto;
+}
+
+#top-container{
+    width: 100%;
+    height: 10vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+#img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#top-image-container{
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/09/ancient-city-colosseum-rome-ruins-4k_1538064995.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 8vw;
+    text-align: center;
+}
+
+#title-card{
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    display: block;
+    font-size: 350%;
+    font-weight: bold;
+    margin: auto;
+}
+
+#nav-container{
+
+    background-color: gray;
+    height: 4vw;
+    width: 100%;
+}
+
+.nav-button{
+    size: 100%;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    font-size: 2vw;
+    border-radius: 25px;
+    background-color: #858585;
+    width: 15vw;
+}
+
+#nav-button-container{
+    height: 4vw;
+    width: 100%;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    display: grid;
+}
+
+.nav-button:hover{
+    background-color: #959595;
+    transition-duration: 0.5s;
+    width: 18vw;
+    height: 3vw;
+}
+
+#history-section{
+    margin-top: 1.8vw;
+    background-image: url("https://www.freedomtravel.se/wp-content/uploads/Vatikanstaten-1200x677.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+}
+#government-section{
+    background-image: url("https://sweden.se/wp-content/uploads/2018/01/eat-of-overnment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+}
+#industry-section{
+    background-image: url("https://hoganas-iv.azureedge.net/publishedmedia/x14qjudzsm3ygdua1qfp/7952290-petrochemical-plant-at-night.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+}
+#economy-section{
+    background-image: url("https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7392513/corona-economy-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+}
+
+#main-container{
+    font-size: 10vw;
+}
