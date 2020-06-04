@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 a{
@@ -93,14 +95,14 @@ a{
     height: 50vw;
 }
 #industry-section{
-    background-image: url("https://hoganas-iv.azureedge.net/publishedmedia/x14qjudzsm3ygdua1qfp/7952290-petrochemical-plant-at-night.jpg");
+    background-image: url("https://www.iva.se/globalassets/bilder/projekt/vagval-klimat/vagval-industrisystem.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 50vw;
 }
 #economy-section{
-    background-image: url("https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7392513/corona-economy-scaled.jpg");
+    background-image: url("https://cached-images.bonnier.news/cms30/UploadedImages/2020/3/6/6cd3e376-7352-4239-8242-035c9a2eca90/bigOriginal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -117,11 +119,16 @@ a{
     float: left;
     background-color: gray;
     font-size: 5vw;
+    width: 18vw;
+    height: 20vw;
+    background-image: url("images/ad.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #right-ad{
     float: right;
-    margin-left: 83vw;
+    margin-left: 76vw;
 }
 
 #cookies{
@@ -142,8 +149,33 @@ a{
 
 #cookie-content{
     margin-top: 2vw;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 #cookie-button{
-    margin-top: 3vw;
+    margin-top: 1vw;
+}
+
+.info-text{
+    font-size: 1.4vw;
+    color: white;
+    padding: 1vw;
+}
+
+.info{
+    display: block;
+    margin-top: 5vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgba(85, 81, 81, 0.8);
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+.section-title{
+    font-size: 5vw;
 }
